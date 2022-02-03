@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto";
+}
+
+/* Add a grey background color to the top navigation */
+.topnav {
+  background-color: hsl(0, 0%, 90%);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 15%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 90%);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: hsl(0, 0%, 90%);
+  background-color: hsl(216, 100%, 70%);
+}
+
+.alphabeticalsort {
+  float: left;
+  text-decoration: none;
+  padding-top: 125px;
+  margin-right: 25px;
+}
+
+.alphabeticalsort a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+.alphabeticalsort a:hover{
+  text-decoration: underline;
+  color: hsl(216, 100%, 70%);
+}
